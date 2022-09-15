@@ -1,0 +1,248 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/*//////////*/
+.wrapper {
+  max-width: 1140px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 10px;
+}
+
+h1{
+  font-family: 'Bebas Neue', cursive;
+}
+
+.sr-only {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  color: #fff;
+  background-color: #fff;
+  min-width: 120px;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+
+.button span {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .button span {
+    display: initial;
+  }
+}
+
+.button--icon {
+  min-width: initial;
+  padding: 0.5rem;
+}
+
+/*Logo*/
+.logo{
+  width: 35%;
+}
+/*/////////////////*/
+
+/*Seccion*/
+
+     .sections {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background: #fff;
+  }
+
+.sections {
+  background-image: url(fondo.jpg);
+  background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center center;
+ background-size: cover;
+}
+
+/*////////////////*/
+
+/*Titulo*/
+
+  .titulo {
+  padding-bottom: 21px;
+}
+
+.titulo h2 {
+  font-size: 11rem;
+  position: absolute;
+    width: 30%;
+    display: flex;
+    color: #fff;
+font-family: 'Bebas Neue', cursive;}
+
+ .titulo2
+ {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10% 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  @media (max-width: 599px){
+
+    .titulo2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30% 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+    .titulo h2 {
+    font-size: 80px;
+    position: absolute;
+    width: 30%;
+    display: flex;
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+}
+
+}
+
+/*///////////////*/
+
+/*Tablas*/
+
+td /*Caja*/
+{ 
+  max-width: 35rem;
+}
+
+.sobre /*Titulo*/
+{
+    font-family: 'Anton', sans-serif;
+    padding-left: 19%;
+    font-size: 3rem;
+    letter-spacing: 7px;
+}
+
+p /*Texto*/
+{
+    font-size: 25px;
+    margin-left: 103px;
+}
+
+.ver-mas /*Boton*/ 
+{
+  margin-top: 3%;
+    margin-left: 6.5rem;
+    background: black;
+    color: white;
+    padding: 8px
+}
+
+.imagen /*Posible imagen*/
+{
+  padding-top: 10px;
+
+}
+
+.contenido /*Todo*/
+{
+  margin: 0;
+}
+
+/*Responsive*/
+@media (max-width: 599px) 
+{
+
+td /*Caja*/
+{
+    max-width: 20rem;
+}
+    
+.sobre /*Titulo*/
+{
+    font-family: 'Anton', sans-serif;
+    padding-left: 20%;
+    font-size: 3rem;
+}
+
+p /*Texto*/
+{
+    font-size: 20px;
+    margin-left: 55px;
+    line-height: 19px;
+
+}
+
+.ver-mas /*Boton*/ 
+{
+    margin-top: 1rem;
+    margin-left: 9rem;
+    background: black;
+    color: white;
+    padding: 8px;
+}
+
+}/*Finish Responsive*/
+
+/*///////////////*/
+
+

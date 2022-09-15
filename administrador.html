@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> CRUD - Administrador INET</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="Normalize.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+<body>
+
+ <!-- Header Start -->
+
+      <div class="wrapper site-header__wrapper">
+        <a href="#" class="brand"><img class="logo" src="InetAdministrador.png"></a>
+        <nav class="nav">
+          <ul class="nav__wrapper">
+            <li class="nav__item"><a href="#inicio">TEXTO</a></li>
+            <li class="nav__item"><a href="#nosotros">AUDIO</a></li>
+
+          </ul>
+        </nav>
+      </div>
+ 
+    <!-- Header Finish -->
+
+
+    <section><!-- Datos Start -->
+
+   
+      
+      <h1>EXPOSICIONES</h1>  
+
+     <form>
+       
+ <div class="div_uno">
+  <input type="number" class="form__input" id="id" placeholder="Id" required="" />  <br>
+  <input type="text" class="form__input_dos" id="title" placeholder="Titulo" required="" />  <br>
+  <input type="text" class="form__input_tres" id="descripcion" placeholder="Descripcion" required="" />  
+    <br>
+     <div class="pics">
+  <a href="#"><img src="basura.png" class="basura"></a>
+  <a href="#"><img src="lapiz.png" class="basura"></a>
+   <a href="#"><img src="agregar.png" class="basura"></a>
+     </div>
+  
+ </div>
+
+     </form>
+
+    </div>
+   
+
+    </section><!-- Datos Finish -->
+
+<div class="linea"></div>
+
+    <section><!-- Datos Start -->
+
+    
+     <div class="juegos">
+      <h1>JUEGOS</h1>  
+     </div> 
+     <form>
+     <div class="div_uno">  
+
+  <input type="number" class="form__input" id="id" placeholder="Id" required="" />  <br>
+  <input type="number" class="form__input_expo" id="id" placeholder="Id Expo" required="" />  <br>
+  <input type="text" class="form__input_dos" id="title" placeholder="Pregunta" required="" />  <br>
+  <input type="text" class="form__input_tres" id="descripcion" placeholder="Respuesta" required="" />  
+   <br>
+  <div class="pics">
+  <a href="#"><img src="basura.png" class="basura"></a>
+  <a href="#"><img src="lapiz.png" class="basura"></a>
+  <a href="#"><img src="agregar.png" class="basura"></a>
+  </div>
+ </div>
+
+     </form>
+
+   
+   
+
+    </section><!-- Datos Finish -->
+
+<style type="text/css">
+
+
+br{
+  display: none;
+}
+
+.form__input_expo{
+   font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1rem;
+    padding: 6px 10px;
+    border-radius: 0.2rem;
+    width: 10%;
+}
+
+.basura {
+  margin-left: 4rem;
+  height: 30px;
+  width: 30px;
+}
+
+  section {
+    position: relative;
+    margin-top: 5rem;
+    font-size: 15px;
+    margin-left: 36px;  
+  }
+.form__input {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1rem;
+    padding: 6px 10px;
+    border-radius: 0.2rem;
+    width: 5%;
+}
+
+.form__input_dos {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1rem;
+    padding: 6px 10px;
+    border-radius: 0.2rem;
+    width: 15%;
+}
+
+.form__input_tres {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1rem;
+    padding: 6px 10px;
+    border-radius: 0.2rem;
+    width: 20%;
+
+}
+
+li {
+  margin: 15px;
+}
+
+/*
+
+
+
+.pics {
+    margin-top: 7rem;
+    margin-left: 18rem;
+}
+input{
+  width: 30%;
+}
+
+br{
+  display: block;
+}
+
+form {
+  margin-top: 5rem;
+}
+
+
+.logo {
+    width: 60%;
+}
+
+header__wrapper {
+    display: flex;
+
+    padding-top: 0;
+    
+    margin-top: 3rem;
+}
+
+
+.nav__item a {
+    display: block;
+    padding: 1.5rem 1rem;
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 5em;
+    margin: 0.67em 216px;
+}*/
+
+
+
+
+</style>
+
+
+</body>
+</html>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.boxed {
+max-resolution: 1rem;
+}
+
+
+html {
+  font-family: 'Open Sans', sans-serif;}
+
+.brand {
+  font-weight: bold;
+  font-size: 20px; }
+
+.site-header {
+  position: fixed;
+  background-color: #fff; }
+
+.site-header__wrapper {
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+  @media (min-width: 600px) {
+    .site-header__wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 0;
+      padding-bottom: 0; } }
+@media (min-width: 600px) {
+  .nav__wrapper {
+    display: flex; } }
+
+@media (max-width: 599px) {
+  .nav__wrapper {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #d9f0f7;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out; }
+    .nav__wrapper.active {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0); } }
+
+
+
+      @media  (max-width: 600px){
+h1 {
+    font-size: 2em;
+    margin: 0.67em 83px;
+}
+
+br {
+  display: block;
+}
+
+.basura {
+margin-left: 5rem;
+    height: 20px;
+    width: 20px;
+    margin-top: 2rem;
+}
+
+.form__input, .form__input_expo, .form__input_dos, .form__input_tres {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1rem;
+    padding: 6px 10px;
+    border-radius: 0.2rem;
+    width: 80%;
+    margin-left: 37px;
+}
+
+.juegos {
+  margin-left: 2rem;
+}
+
+.logo {
+    width: 45%;
+}
+
+}
+
+</style>
