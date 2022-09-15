@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cola{
+  display: flex;
+  flex-direction: column;
+  border: solid black 3px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.cola h2{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.cola__turnos{
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  border: solid black 1px;
+  padding: 5px;
+}
+
+.turno{
+  background-color: rgb(170, 217, 255);
+  padding: 15px;
+  border: solid blue 2px;
+  border-radius: 10px;
+}
+
+.turno__nombre{
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.turno__email{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}

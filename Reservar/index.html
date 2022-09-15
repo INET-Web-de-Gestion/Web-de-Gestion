@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Chrome">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Nombre | Reservar</title>
+
+  <link rel="shortcut icon" href="https://localhost/Web-de-Gestion/img/shortcut_icon.png">
+  <link rel="stylesheet" href="styles/main.css">
+
+</head>
+<body>
+  <form class="form" action="reserve.php" method="POST">
+    <h2>Reservar Turno</h2>
+    <div class="control">
+      <label for="inp_schedule">horario</label>
+      <input type="time" min="07:00" max="18:00" id="inp_schedule" name="inp_schedule">
+    </div>
+    <div class="control">
+      <label for="inp_date">fecha</label>
+      <input type="date" id="inp_date" name="inp_date">
+    </div>
+    <div class="control">
+      <button class="form__submit" type="submit"> Reservar </button>
+    </div>
+  </form>
+</body>
+</html>

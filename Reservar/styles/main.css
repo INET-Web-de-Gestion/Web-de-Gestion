@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+.form{
+  display: flex; 
+  flex-direction: column;
+  border: solid black 2px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 50px;
+  width: 250px;
+  gap: 10px;
+  align-items: center;
+  background-color: rgb(216, 216, 216);
+}
+
+.control label{
+  font-family: 'Courier New', Courier, monospace;
+}
+.control input{
+  font-family: 'Courier New', Courier, monospace;
+  border: solid black 1px;
+}
+
+form h2{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.form__submit{
+  background-color: rgb(99, 99, 99);
+  padding: 5px 10px;
+  border-radius: 15px;
+}
